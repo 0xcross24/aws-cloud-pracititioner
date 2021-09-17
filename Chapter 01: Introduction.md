@@ -48,3 +48,29 @@ Given an interface through which you define the behavior and environment you wan
 Services that are meant to be accessed by end users like Gmail or outlook that runs locally.
 
 ![image](https://github.com/dannymoon-dev/aws-cloud-pracititioner/raw/master/images/Fri_Sep_17_2021_1631912739147.png)
+
+## Serverless Workloads
+Allows for individual developers to run their code for seconds or minutes at a time on some else's cloud servers.
+
+Example: A video file is uploaded to a repository which triggers an AWS Lambda function to convert the file to a new video format.
+
+No need to maintain and pay for an actual instance running 24/7.
+
+# Scalability and Elasticity
+
+## Scalability
+A scalable service will automatically grow in capacity
+
+A well designed cloud-based operation will constantly monitor the health of its application stack and respond whenever the performance metrics degrade.
+
+AWS can handle the capacity stresses required to keep millions of Netflix customers
+
+## Elasticity
+Elastic service automatically resize up or down based on the performance workload. This requires a preset configuration to be set for maximum and minimum performance level for your application. Based on the setting, the AWS server will automatically add or remove resources to meet changing usage demands.
+
+# Summary
+Customers can benefit from higher-quality security, availability, and reliability than they could provide locally.
+
+Companies don't have to spend their resources on managing the underlying physical infrastructure that's managed by AWS.
+
+You pay for the services you use and only as you use them.
