@@ -11,3 +11,28 @@ There's no significant difference between running a software application on serv
 As a business, you are responsible for protecting the workstations and networking hardware running in your office along with securing your organization's data and code your developers put into your apps. The integrity of your underlying server infrastructure is just one more potential area of vulnerability for you to worry about.
 
 AWS provides and takes responsibility for the security of its platform's underlying networking and compute infrastructure.
+
+Cloud itself is managed by AWS
+
+## Metered Payment Model
+Defining characteristics of an cloud computing platform
+1. Automatically allocates resources
+2. The flexibility of the self-server system
+    - Only billed for the time used per server.
+    - This is good compared to a self-hosted baremetal. It allows lower cost, since you can delete an instance as soon as a testing environment is completed.
+
+## Server virtualization: The Basics
+Provides virtual hardware for the client's need on the spot. Doesn't require setting up a new hardware.
+
+The virtualization model offers two benefits
+1. Speed - Defining, purchasing, provisioning, testing, and launching a new physical server can take months
+2. Efficiency - Resource constraint on hardware servers. Virtual servers can be divided into multiple instances onto a physical server running a hypervisor. This avoids having the server become overloaded or overused
+
+# Cloud Platform Models
+There are different types of cloud services.
+1. Infrastructure as a Service (IaaS)
+2. Platform as a Service (PaaS)
+3. Software as a Service (SaaS)
+
+## Infrastructure as a Service
+Similar look and feel to managing physical resources. IaaS provides direct access to provider's compute, storage, and networking assets.
