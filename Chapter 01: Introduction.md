@@ -36,3 +36,14 @@ There are different types of cloud services.
 
 ## Infrastructure as a Service
 Similar look and feel to managing physical resources. IaaS provides direct access to provider's compute, storage, and networking assets.
+
+Responsible for the consequences of any bad configurations. You are provided with the resources but all management must be done by the company.
+
+## Platform as a Service
+You are not responsible for the complexity of the infrastructure like IaaS.
+
+Given an interface through which you define the behavior and environment you want for your application.
+
+## Software as a Service
+Services that are meant to be accessed by end users like Gmail or outlook that runs locally.
+
