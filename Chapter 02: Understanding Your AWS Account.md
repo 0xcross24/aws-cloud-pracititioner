@@ -103,3 +103,22 @@ You can control the level of details and enable support for Redshift and/or Amaz
 The reports generated at preset intervals are compressed, saved using the CSV format, and sent to an S3 bucket you've already created. Then you have an option to configure Redshift or QuickSight to access and process the data as it's generated.
 
 ## Cost Allocation Tags
+Tags are metadata indentification elements representing a resource and its action. Tags can be used to organize and track your resources, allowing you to visualize and better understand how resource are being used. There are two different types of tags:
+1. Resource tags - Used to quickly identify the purpose and owner of a particular running resource.
+2. Cost allocation tags - Interacts with billing tools and won't show up in the context of any other AWS resources or process. Cost allocation tags help efficiently identify your resources of tracking your account spending. There are two Cost Allocation Tags:
+    1. AWS-generated cost allocation tags - automatically generates when resources are created.
+    2. User-defined cost allocation tags.
+
+## AWS Organizations
+Allows you to centralize the administration of multiple AWS accounts owned or controlled by a single company.
+
+Once accounts are linked, maintaining a secure profile and following best practices becomes even more critical than for stand-alone accounts.
+
+# Summary
+The Free Tier offers new accounts a full year of free access to light configurations. You can track your outspending your Free Tier allowance from the Billing Dashboard.
+
+Pricing information can be found by adding /pricing to the URL of an AWS service: https://aws.amazon.com/s3/pricing/
+
+The AWS Simple Monthly Calculator and AWS Cost of Ownership Calculator anticipate real-world usage costs for AWS deployment. TCO calculator compares your spending with its on-premises equivalent.
+
+The AWS Billing Dashboard contains account administration, payment and tax status management, cost monitoring, and cost control.
