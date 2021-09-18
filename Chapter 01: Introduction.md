@@ -29,7 +29,7 @@ The virtualization model offers two benefits:
 2. Efficiency - Resource constraint on hardware servers. Virtual servers can be divided into multiple instances onto a physical server running a hypervisor. This avoids having the server become overloaded or overused
 
 # Cloud Platform Models
-There are different types of cloud services.
+There are different types of cloud services:
 1. Infrastructure as a Service (IaaS)
 2. Platform as a Service (PaaS)
 3. Software as a Service (SaaS)
