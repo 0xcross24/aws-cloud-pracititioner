@@ -99,3 +99,7 @@ Can be accessed from Reports link on the Billing Dashboard.
 Reports can be configured to create a full range of activity on your account, including what resources you have running and how much they're costing you.
 
 You can control the level of details and enable support for Redshift and/or Amazon QuickSight (a managed, pay-per-user business intelligence tool) to handle the visualization and analysis of significant volumes of data.
+
+The reports generated at preset intervals are compressed, saved using the CSV format, and sent to an S3 bucket you've already created. Then you have an option to configure Redshift or QuickSight to access and process the data as it's generated.
+
+## Cost Allocation Tags
