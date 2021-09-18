@@ -79,4 +79,6 @@ A tool for tracking a specified set of events that triggers when a preset thresh
 2. Usage budget to track particular categories of resource consumption.
 3. Reservation budget to help you understand the status of any active EC2, RDS, Redshift, or Elasticache reserve instances you might have.
 
-The budget setup process has two parts
+The budget setup process has two parts:
+1. Set the terms of your budget - what it is you're tracking.
+2. Define how and when you want alerts sent.
