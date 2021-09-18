@@ -21,13 +21,13 @@ AWS provides free tier for the first 12 months after opening a new account to wo
 ![image](https://github.com/dannymoon-dev/aws-cloud-pracititioner/raw/master/images/Fri_Sep_17_2021_1631914591755.png)
 
 ## What's Available Under the Free Tier?
-1. Light implementation of most AWS services are available through the first 12 months of a new AWS account
-2. Light usage of certain AWS services that are always available even after your initial 12 months
+1. Light implementation of most AWS services are available through the first 12 months of a new AWS account.
+2. Light usage of certain AWS services that are always available even after your initial 12 months.
 
 https://aws.amazon.com/free/
 
 ## The 12-Month Free Tier
-- 30 GB of disk memory from Elastic Block Storage (EBS)
+- 30 GB of disk memory from Elastic Block Storage (EBS).
 - 500 MB/month of free storage on the Elastic Container Registry (ECR). ECR stores and manages Docker container images.
 - 50 GB of outbound data transfers and 2 million HTTP or HTTPS requests for CloudFront distribution.
     - CloudFront is Amazon's content delivery network that can be used to cache copies of your content to remote users at low latency rates.
@@ -36,29 +36,47 @@ https://aws.amazon.com/free/
 
 ## Permanently Free Services
 1. 10 custom monitoring metrics and 10 alarms on CloudWatch active.
-2. 10 GB of data retrievals from Glacier per month
-    - Glacier is a low cost storage service that's ideal for long term storage where you're not likely to require quick access to your data
+2. 10 GB of data retrievals from Glacier per month.
+    - Glacier is a low cost storage service that's ideal for long term storage where you're not likely to require quick access to your data.
 3. 62,000 outbound email messages per month using Simple Email Service (SES).
-    - An enterprise scale email service geared to organizations that regularly send large volumes of emails
+    - An enterprise scale email service geared to organizations that regularly send large volumes of emails.
 4. One million requests and 3.2 million seconds of compute time using AWS Lambda functions.
     - Lambda lets you run code based on network triggers without provisioning any underlying server infrastructure.
 
 # Product Pricing
-How AWS bills for each of the services you're considering, and how to get an accurate pricing information
+How AWS bills for each of the services you're considering, and how to get an accurate pricing information.
 
 ## Finding AWS Pricing Documentation
-Each AWS service has its own web page dedicated to pricing. Pricing can be found by adding /pricing at the end of an URL
+Each AWS service has its own web page dedicated to pricing. Pricing can be found by adding /pricing at the end of an URL.
 
 Example: https://aws.amazon.com/s3/pricing
 
 Different AWS region can display different pricing across the global AWS infrastructure.
 
 ## Working with Online Calculators
-1. Simple Monthly Calculator to help you understand what running any combination of AWS resources will cost you
-2. Total Cost of Ownership Calculator to closely compare what you're currently paying for on-premises servers with the same workload would cost on AWS
+1. Simple Monthly Calculator to help you understand what running any combination of AWS resources will cost you.
+2. Total Cost of Ownership Calculator to closely compare what you're currently paying for on-premises servers with the same workload would cost on AWS.
 
 ## AWS Simple Monthly Calculator
 https://calculator.s3.amazonaws.com/index.html
 
 ## AWS Total Cost of Ownership Calculator
 https://calculator.aws/#/
+
+## Billing and Cost Management
+The dashboard is located through the account drop-down menu at the top of the AWS Management Console. It holds various tools to monitor the health of your organization's finances and operations.
+
+## The AWS Billing Dashboard
+Contains a helpful visual spend summary that displays your costs from the previous and current months. Also shows forecast of the costs you'll likely to receive through the end of the month.
+
+Contains, month to date spend by service display that can itemized a breakdown of your current spending.
+
+Contains billing payment method, records of your previous transactions and organization's tax information.
+
+## AWS Budgets
+A tool for tracking a specified set of events that triggers when a preset threshold is approached or passed. There are three budget types:
+1. Cost budget to monitor costs being incurred against your account.
+2. Usage budget to track particular categories of resource consumption.
+3. Reservation budget to help you understand the status of any active EC2, RDS, Redshift, or Elasticache reserve instances you might have.
+
+The budget setup process has two parts
