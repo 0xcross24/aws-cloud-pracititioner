@@ -27,7 +27,7 @@ AWS provides free tier for the first 12 months after opening a new account to wo
 https://aws.amazon.com/free/
 
 ## The 12-Month Free Tier
-- 30 GB of disk memory from Elastic Block Storage (EBS).
+- 30 GB of either HDD or SSD memory from Elastic Block Storage (EBS).
 - 500 MB/month of free storage on the Elastic Container Registry (ECR). ECR stores and manages Docker container images.
 - 50 GB of outbound data transfers and 2 million HTTP or HTTPS requests for CloudFront distribution.
     - CloudFront is Amazon's content delivery network that can be used to cache copies of your content to remote users at low latency rates.
