@@ -24,7 +24,7 @@ Defining characteristics of an cloud computing platform
 ## Server virtualization: The Basics
 Provides virtual hardware for the client's need on the spot. Doesn't require setting up a new hardware.
 
-The virtualization model offers two benefits
+The virtualization model offers two benefits:
 1. Speed - Defining, purchasing, provisioning, testing, and launching a new physical server can take months
 2. Efficiency - Resource constraint on hardware servers. Virtual servers can be divided into multiple instances onto a physical server running a hypervisor. This avoids having the server become overloaded or overused
 
