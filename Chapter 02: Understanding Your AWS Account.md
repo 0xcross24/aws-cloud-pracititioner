@@ -63,7 +63,7 @@ https://calculator.s3.amazonaws.com/index.html
 ## AWS Total Cost of Ownership Calculator
 https://calculator.aws/#/
 
-## Billing and Cost Management
+# Billing and Cost Management
 The dashboard is located through the account drop-down menu at the top of the AWS Management Console. It holds various tools to monitor the health of your organization's finances and operations.
 
 ## The AWS Billing Dashboard
@@ -82,3 +82,20 @@ A tool for tracking a specified set of events that triggers when a preset thresh
 The budget setup process has two parts:
 1. Set the terms of your budget - what it is you're tracking.
 2. Define how and when you want alerts sent.
+
+## Monitoring Your Costs
+In depth deployment planning and properly configured budgets are important tools but not enough. Ongoing monitoring is a key part of that mix, using Amazon's Cost Explorer and its cost and usage reports.
+
+## Cost Explorer
+https://aws.amazon.com/aws-cost-management/aws-cost-explorer/
+
+Cost Explorer lets you build graphs to  visualize your account's historical and current costs. There is a preconfigured views that includes spending over the most recent three months by a service.
+
+Cost Explorer can open a heavily customizable view that lets you filter account cost events by date, region, Availability Zone, instance type, platform, and others. Uses CSV formatted files.
+
+## Cost and Usage Reports
+Can be accessed from Reports link on the Billing Dashboard.
+
+Reports can be configured to create a full range of activity on your account, including what resources you have running and how much they're costing you.
+
+You can control the level of details and enable support for Redshift and/or Amazon QuickSight (a managed, pay-per-user business intelligence tool) to handle the visualization and analysis of significant volumes of data.
