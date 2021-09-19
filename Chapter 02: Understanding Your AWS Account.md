@@ -62,6 +62,10 @@ https://calculator.s3.amazonaws.com/index.html
 ## AWS Total Cost of Ownership Calculator
 https://calculator.aws/#/
 
+# Service Limits
+Service limits or soft (adjustable). If required, you can manually request that AWS increase a limit for your account. Some limits are hard and can't be increased.
+https://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html
+
 # Billing and Cost Management
 The dashboard is located through the account drop-down menu at the top of the AWS Management Console. It holds various tools to monitor the health of your organization's finances and operations.
 
