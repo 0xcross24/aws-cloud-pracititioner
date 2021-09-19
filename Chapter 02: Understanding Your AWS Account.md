@@ -1,5 +1,4 @@
 # Introduction
-
 Two account-level things to clear
 1. Cost: Virtually no limit to how much you can purchase or to how much they can host you.
 2. Authority: Who makes the decision for launching and shutting down account resources.
