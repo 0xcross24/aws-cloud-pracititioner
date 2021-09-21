@@ -29,7 +29,7 @@ Enterprise
 
 https://aws.amazon.com/premiumsupport/plans/
 
-# The Basic Support Plan
+## The Basic Support Plan
 Only paying for the regular costs of AWS resources. You can also add contact customer service at any time of the day or night for account related issues.
 
 You get limited access to the Trusted Advisor tool. And receive alerts concerning interruptions to any AWS services through Personal Health Dashboard (PHD)
