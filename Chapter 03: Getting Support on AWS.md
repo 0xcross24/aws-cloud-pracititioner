@@ -51,3 +51,44 @@ https://aws.amazon.com/premiumsupport/
 This service provides detailed guides to achieving specific outcomes and work with third-party consultants from AWS Partner Network (APN) to actively help you build your deployment. 
 
 https://aws.amazon.com/professional-services/
+
+# Documentation and Online Help
+Support documentations for people that are not signed up for a paid support plan.
+
+## Documentation
+https://docs.aws.amazon.com/
+
+## Knowledge Center
+Frequently asked questions page: https://aws.amazon.com/premiumsupport/knowledge-center/
+
+## Security Resources
+Security related resources can be found: https://aws.amazon.com/security/security-learning/
+
+## Discussion Forums
+A forum that is divided into categories:
+- Amazon Web Services
+- AWS Startups - focused on newcomers to the platform
+- AWS Web Site and Resources - Java Development and High Performance Computing
+- Other languages
+
+https://forums.aws.amazon.com/index.jspa
+
+# Trusted Advisor
+Used to visually confirm whether your account resource configurations are sound and are complaint with best practices.
+
+![image](https://github.com/dannymoon-dev/aws-cloud-pracititioner/raw/master/images/Tue_Sep_21_2021_1632258780492.png)
+
+Only available for users signed on to either the Business or Enterprise support service tier. Free Basic Support plan access is limited to service limits and some of the security alerts.
+
+# Summary
+AWS requires you to select one of four support plans
+1. The Basic plan
+    - Free
+2. The Developer plan
+    - Starts at $29
+3. The Business plan
+    - Starts at $100
+4. The Enterprise plan
+    - Starts at $15,000.
+
+Nonfree plans are billed as a percentage of total monthly resource usage. The higher the support level, the more responsive and personalized the technical troubleshooting and planning support you get.
