@@ -63,13 +63,13 @@ AWS Key Management Service (KMS) manages encryption keys that encrypts data in A
 KMS applies encryption using customer master key (CMK) that's been generated for your account. Key management can be done through either the KMS Dashboard or the Encryption Key page within IAM.
 
 Any data managed by an AWS service can be encrypted.
-    - Relational Database Service (RDS)
-    - DynamoDB databases
-    - Elastic Block Store (EBS) volumes
+- Relational Database Service (RDS)
+- DynamoDB databases
+- Elastic Block Store (EBS) volumes
 
 Encryption for S3 works in the same manner but separately. S3 objects of a bucket are encrypted during or after bucket creation. S3 encryption can be managed in two ways:
-    1. Server side encryption keys (SSE-S3)
-    2. KMS managed keys (SSE-KMS)
+1. Server side encryption keys (SSE-S3)
+2. KMS managed keys (SSE-KMS)
 
 Server-side encryption are objects that are encrypted within a server
 
@@ -81,11 +81,11 @@ Client-side encryption needs to be encrypted before uploading it to S3 using eit
 AWS Artifact is a set of links to documents describing various regulatory standard and how AWS meets them. Each documents is referred to as an artifact.
 
 Artifacts that are available:
-    1. U.S. government's Federal Risk and Authorization Management Program (FedRAMP)
-    2. the Government of Canada (GC) Partner Package
-    3. Australian Prudential Regulation Authority (ARPA) "Management of Security Risk in Information and Information Technology" workbook.
-    4. PCI DSS Attestation of Compliance and Responsibility for handling credit card transaction.
-    5. Service Organization Controls (SOC) 1, 2, and 3 audits of AWS infrastructure
+1. U.S. government's Federal Risk and Authorization Management Program (FedRAMP)
+2. the Government of Canada (GC) Partner Package
+3. Australian Prudential Regulation Authority (ARPA) "Management of Security Risk in Information and Information Technology" workbook.
+4. PCI DSS Attestation of Compliance and Responsibility for handling credit card transaction.
+5. Service Organization Controls (SOC) 1, 2, and 3 audits of AWS infrastructure
 # Summary
 Use strong passwords by following a password policy in IAM. Strongly recommended to use multi-factor authentication (MFA).
 
